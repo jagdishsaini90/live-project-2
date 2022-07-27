@@ -1,0 +1,109 @@
+:root {
+  --primary_color: #ffc233;
+  --secondary_color: #ff505f;
+  --background_color: rgb(49, 55, 73, 0.89);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+}
+
+body {
+  background: url("./assets/pexels-maxyne-barcel-10402282\ 1.png");
+  background-position: top top;
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  max-height: 100vh;
+  overflow: hidden;
+  background-color: var(--background_color);
+  backdrop-filter: grayscale(0.8) saturate(100%) blur(1px) contrast(200%);
+}
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 50px;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: row;
+  list-style: none;
+  margin-top: -30px;
+}
+
+.list-item {
+  margin: 0 30px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  color: var(--primary_color);
+}
+
+.button-small,
+.button-large {
+  background: var(--secondary_color);
+  width: 130px;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  margin-right: 50px;
+  height: 50px;
+  cursor: pointer;
+  margin-top: -50px;
+}
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+
+.hero {
+  max-width: 80%;
+  margin: auto;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.hero-heading {
+  font-weight: 1000;
+  font-family: "Dela Gothic One", sans-serif;
+  color: var(--primary_color);
+  text-align: center;
+  font-size: 5.5rem;
+  letter-spacing: 3px;
+  line-height: 1.2;
+}
+
+.button-large {
+  width: 350px;
+  height: 80px;
+  font-size: 30px;
+  font-weight: bold;
+  margin: auto;
+  margin-top: 60px;
+}
+
+.bottom {
+  width: 100%;
+  text-align: right;
+}
+.bottom div {
+  margin-left: auto;
+}
+.bottom img {
+  width: 150px;
+  height: 150px;
+}
