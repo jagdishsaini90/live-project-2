@@ -8,7 +8,7 @@
 
 ![Time Taken](https://img.shields.io/badge/Time%20Taken-30%20min-red)
 
-> Project 1
+> Project 2
 
 ### Skill gained from this
 
