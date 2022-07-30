@@ -2,6 +2,8 @@
 
 > A landing page designed using pure HTML & CSS.
 
+[Demo](https://live-class-project-002.netlify.app/ "Demo")
+
 ![Made With](https://img.shields.io/badge/Made%20with-HTML%20and%20CSS-brightgreen)
 
 ![Time Taken](https://img.shields.io/badge/Time%20Taken-30%20min-red)
